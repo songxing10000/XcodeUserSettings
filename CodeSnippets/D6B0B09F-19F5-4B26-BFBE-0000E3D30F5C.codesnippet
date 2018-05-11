@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sxalert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *determineTitle = @"确定";
+    NSString *cancelTitle = @"取消";
+    NSString *alertTitle = nil;
+    NSString *alertMsg = @"确定取消订单?";
+    
+    void (^cancelHandler)(SXAlertAction *action) = ^(SXAlertAction *action) {
+        
+    };
+    void (^determineHandler)(SXAlertAction *action) = ^(SXAlertAction *action) {
+        
+        
+    };
+    
+    SXAlertAction *determineAction = [SXAlertAction actionWithTitle:determineTitle
+                                                              style:SXAlertActionStyleDefault
+                                                            handler:determineHandler];
+    SXAlertAction *cancelAction = [SXAlertAction actionWithTitle:cancelTitle
+                                                           style:SXAlertActionStyleDestructive
+                                                         handler:cancelHandler];
+    SXAlertController *alertController = [SXAlertController alertControllerWithTitle:alertTitle
+                                                                             message:alertMsg
+                                                                      preferredStyle:SXAlertControllerStyleAlert];
+    [alertController addAction:determineAction];
+    [alertController addAction:cancelAction];
+    [alertController showWithAnimated:YES];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D6B0B09F-19F5-4B26-BFBE-0000E3D30F5C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>确定、取消</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SXAlertController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

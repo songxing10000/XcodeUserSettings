@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sxrefresh</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[[WTNetManager manager] postWithAPI:@"Trip/tour" params:@{@"offset": offset} needCache:NO success:^(NSArray *dicts) {
+        NSArray *tours = [WTTour arrayOfModelsFromDictionaries:dicts];
+        if ([offset isEqualToString:@"0"]) {
+            [self.tours removeAllObjects];
+        }
+        self.footRefreshView.hidden = dicts.count &lt; 10;
+        [self endRefreshing];
+        self.offset = offset;
+
+        [self.tours addObjectsFromArray:tours];
+        [self.tableView reloadData];
+    } failure:^(NSString * _Nullable errorString) {
+        [self endRefreshing];
+
+        WTLog(@"----%@---", errorString);
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>407E0EA8-5F1B-4518-8174-AC33595AC528</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>上下拉刷新写法</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

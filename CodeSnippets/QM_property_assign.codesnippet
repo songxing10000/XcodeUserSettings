@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxl</string>
+	<string>pa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>///&lt; &lt;#注释说明#&gt;</string>
+	<string>@property(nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DE449C20-A784-401A-89A0-B6EB768AABBB</string>
+	<string>9F96E543-5450-452B-9CA8-8BCCD8D841ED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>右侧注释sxl</string>
+	<string>Property For Assign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pa</string>
+	<string>sxAssign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic) NSInteger &lt;#num#&gt;;</string>
+	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#num#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2E137C65-11AE-41CD-87A0-4F5F3D50554D</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxno</string>
+	<string>sxsx</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#className#&gt;()
-
-
-@end</string>
+	<string>/*
+    &lt;#input#&gt;
+*/</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8751B6E8-0E36-4AA6-BC42-75C839DA8B21</string>
+	<string>B3B65793-92A0-4901-A33A-60DF0933D116</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>匿名分类，类扩展</string>
+	<string>swift练习注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,28 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>smlabel</string>
+	<string>didInitializedWithStyle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>({
-        UILabel *label = [UILabel new];
-        label.text = @"我是一个label";
-        label.textColor = [UIColor darkGrayColor];
-        label.textAlignment = NSTextAlignmentCenter;
-        label.font = [UIFont systemFontOfSize:12];
-          
-        label;
-    });
-</string>
+	<string>- (void)didInitializedWithStyle:(UITableViewStyle)style {
+    [super didInitializedWithStyle:style];
+    &lt;##&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>66A9B2D8-0560-483A-BB9B-0CA0926B36FE</string>
+	<string>B35A0A1F-EA35-4D3A-A579-5FA0E7DF2AA3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>纯手码UILabel</string>
+	<string>didInitializedWithStyle:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

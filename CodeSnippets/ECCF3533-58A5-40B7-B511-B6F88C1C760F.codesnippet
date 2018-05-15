@@ -3,25 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxgcd</string>
+	<string>sxCopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_global_queue(0, 0), ^{
-    
-            dispatch_async(dispatch_get_main_queue(), ^{
-
-            });
-        });
-</string>
+	<string>@property (copy, nonatomic) NSString *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C13F088E-75F9-4793-B307-2EA595E1E6FF</string>
+	<string>ECCF3533-58A5-40B7-B511-B6F88C1C760F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>快速gcd</string>
+	<string>Copy属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

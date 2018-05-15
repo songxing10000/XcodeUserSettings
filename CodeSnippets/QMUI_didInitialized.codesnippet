@@ -3,25 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxdelay</string>
+	<string>didInitialized</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>double delay = 2;
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
-        [self pop];
-    });</string>
+	<string>- (void)didInitialized {
+    [super didInitialized];
+    &lt;##&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18A6B152-28EE-4B0D-A0C0-B42536C60069</string>
+	<string>34DD9E8F-5AF0-4CD0-9A6C-B3E4C7CCBD7F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>延迟多少时间执行一段代码</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>延迟执行</string>
+	<string>didInitialized</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,13 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#详细注释、描述#&gt;</string>
+	<string>/** &lt;#详细注释、描述#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D1F90A32-8B0A-4447-83E8-806B463EC623</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>sx中文注释sxz</string>
+	<string>sx中文注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

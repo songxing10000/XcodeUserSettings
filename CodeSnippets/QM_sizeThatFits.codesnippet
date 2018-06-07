@@ -13,10 +13,10 @@
     CGSize resultSize = size;
     
     CGFloat resultWidth = &lt;#0#&gt;;
-    resultSize.width = fmin(resultWidth, size.width);
+    resultSize.width = MIN(resultWidth, size.width);
     
     CGFloat resultHeight = &lt;#0#&gt;;
-    resultSize.height = fmin(resultHeight, size.height);
+    resultSize.height = resultHeight;
     
     return resultSize;
 }</string>

@@ -52,6 +52,7 @@ fastlane/report.xml
 fastlane/screenshots
 IB Support
 IDEEditorInteractivityHistory
-AppDataSyncRecords/device_abbc9a6437e4561e15f1153a03b9a4ab7cd35925__appBundle_com.dianfubao.Dianfubao
-AppDataSyncRecords/device_abbc9a6437e4561e15f1153a03b9a4ab7cd35925__appBundle_com.qingyidai.Qingyikeji
-Portal/27B5KQESXZ-Devices.json
+AppDataSyncRecords
+AppDataSyncRecords/*
+Portal
+Portal/*

@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fnv_pan</string>
+	<string>sxdelay</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)handlePanGestureRecognizer:(UIPanGestureRecognizer *)gestureRecognizer {
-    &lt;#code#&gt;
-}</string>
+	<string>NSUInteger delaySecond = 2;
+dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delaySecond * NSEC_PER_SEC));
+    dispatch_after(delayTime, dispatch_get_main_queue(), ^{
+        self.videoUploadView.progressView.percent = 100;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>85908275-A2F1-49FA-8188-739CC7FF1BF5</string>
+	<string>D398BAB2-D1EA-4D20-BC4C-754C314E6254</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建pan手势事件回调</string>
+	<string>延时</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

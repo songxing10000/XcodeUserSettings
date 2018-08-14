@@ -11,9 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- &lt;#name#&gt;
 {
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = [[&lt;#Class#&gt; alloc] init];
+    if (_&lt;#name#&gt;) {
+        return _&lt;#name#&gt;;
     }
+    
     return _&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

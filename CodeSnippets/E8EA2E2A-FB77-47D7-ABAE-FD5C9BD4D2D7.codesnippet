@@ -3,23 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fnv_longPress</string>
+	<string>xibview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer {
-    &lt;#code#&gt;
+	<string>- (void)config {
+    
+}
+-(void)awakeFromNib {
+    [super awakeFromNib];
+    [self config];
+}
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self config];
+    }
+    return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>880C4894-BB6F-4C9C-8758-6185CE801894</string>
+	<string>E8EA2E2A-FB77-47D7-ABAE-FD5C9BD4D2D7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建longPress手势事件回调</string>
+	<string>xibView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

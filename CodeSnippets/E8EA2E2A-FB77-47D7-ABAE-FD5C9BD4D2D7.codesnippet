@@ -3,20 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pw</string>
+	<string>xibview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#注释#&gt;
-@property(nonatomic, weak) &lt;#type#&gt; *m_&lt;#name#&gt;;</string>
+	<string>- (void)config {
+    
+}
+-(void)awakeFromNib {
+    [super awakeFromNib];
+    [self config];
+}
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self config];
+    }
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6CD5E87E-5EB3-4F2E-9C87-81F5BA9EA5FC</string>
+	<string>E8EA2E2A-FB77-47D7-ABAE-FD5C9BD4D2D7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Weak</string>
+	<string>xibView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

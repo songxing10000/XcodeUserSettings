@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxnotification</string>
+	<string>closeItem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#funcName#&gt;:(NSNotification*)notification {
-    
-}</string>
+	<string>[UIBarButtonItem qmui_closeItemWithTarget:self action:@selector(&lt;#selector name#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BBB93C20-EE5A-44F5-B35D-854A96E88F2D</string>
+	<string>F68179BA-29CA-48D0-8F20-54CE21E05920</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>tq notification call back method</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq notification call back method</string>
+	<string>Close UIBarButtonItem</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

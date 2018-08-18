@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxCopy</string>
+	<string>setupNavigationItems</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy, nonatomic) NSString *&lt;#name#&gt;;</string>
+	<string>- (void)setupNavigationItems {
+    [super setupNavigationItems];
+    self.title = @"&lt;##&gt;";
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>ECCF3533-58A5-40B7-B511-B6F88C1C760F</string>
+	<string>DC0DDC5E-D32D-49BF-A61E-06403ADBB977</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>设置 navigationItem</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Copy属性</string>
+	<string>setupNavigationItems</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>smlabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>= ({
+        NSString *text = @"未设定";
+        CGFloat textFontSize = 16;
+        UIColor *textColor = [UIColor hex0E1932];
+        UIColor *bgColor = nil;
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectZero];
+        label.text = text;
+        label.textColor = textColor;
+        if (bgColor) {
+            label.backgroundColor = bgColor;
+        }
+        label.font = [UIFont systemFontOfSize:textFontSize];
+        [label sizeToFit];
+        label;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>77E3AA97-F205-4AF5-9F69-9B301B5C984A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>手码label</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

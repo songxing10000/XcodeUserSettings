@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxClassWithDict</string>
+	<string>imageItem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)&lt;#class#&gt;WithDict:(NSDictionary *)dict;</string>
+	<string>[UIBarButtonItem qmui_itemWithImage:UIImageMake(@"&lt;#image name#&gt;") target:self action:@selector(&lt;#selector name#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E1DF8481-5A2E-43C0-A5EC-365A3D954433</string>
+	<string>3A422B1A-0422-41EC-8CB7-D7B961CDC76D</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>定义工厂方法</string>
+	<string>Image UIBarButtonItem</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxDelegate</string>
+	<string>didInitializeWithStyle_cell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id&lt;&lt;#protocol#&gt;&gt; delegate;</string>
+	<string>- (void)didInitializeWithStyle:(UITableViewCellStyle)style {
+    [super didInitializeWithStyle:style];
+    &lt;##&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>220A30A3-3F21-4B48-AA03-268606C47C7C</string>
+	<string>8D9C07CC-59C0-4411-A4D3-AB5758DC0901</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>弱引用代理</string>
+	<string>didInitializeWithStyle - QMUITableViewCell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

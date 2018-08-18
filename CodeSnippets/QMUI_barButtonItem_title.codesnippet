@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pw</string>
+	<string>titleItem</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#注释#&gt;
-@property(nonatomic, weak) &lt;#type#&gt; *m_&lt;#name#&gt;;</string>
+	<string>[UIBarButtonItem qmui_itemWithTitle:&lt;#(nullable NSString *)#&gt; target:self action:@selector(&lt;#selector name#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6CD5E87E-5EB3-4F2E-9C87-81F5BA9EA5FC</string>
+	<string>43063D01-168F-43E2-B0D4-10A07FA19445</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Weak</string>
+	<string>Title UIBarButtonItem</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

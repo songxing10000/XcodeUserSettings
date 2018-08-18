@@ -52,3 +52,7 @@ fastlane/report.xml
 fastlane/screenshots
 IB Support
 IDEEditorInteractivityHistory
+AppDataSyncRecords
+AppDataSyncRecords/*
+Portal
+Portal/*

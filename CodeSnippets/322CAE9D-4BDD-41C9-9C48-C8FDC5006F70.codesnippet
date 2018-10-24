@@ -3,23 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fnv:</string>
+	<string>addtarget</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark  &lt;#方法说明#&gt;
-/// &lt;#方法说明#&gt;
-- (void)&lt;#method name#&gt;:(UIButton *)btn {
-    
-}</string>
+	<string>addTarget:self action:@selector(&lt;#selector#&gt;)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>36A99A40-AF77-4CCA-8FF3-E1587F48F239</string>
+	<string>322CAE9D-4BDD-41C9-9C48-C8FDC5006F70</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建一个返回值为空并且带参数的方法</string>
+	<string>addTarget</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

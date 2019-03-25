@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uiviewcontrollerlifecycle</string>
+	<string>sxlife</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //MARK: UIViewController lifecycle
+	<string>    // MARK: - UIViewController lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +42,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>UIViewController lifecycle snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift UIViewController lifecycle</string>
+	<string>Swift UIViewController lifecycle-sxlife</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

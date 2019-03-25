@@ -17,7 +17,7 @@ dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delaySeco
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D398BAB2-D1EA-4D20-BC4C-754C314E6254</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>延时</string>
 	<key>IDECodeSnippetUserSnippet</key>

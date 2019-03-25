@@ -3,29 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-urlsession-datatask</string>
+	<string>sxiba</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let session = URLSession.shared
-let task = session.dataTask(with: &lt;#request#&gt;){ (data, response, error) in
-    &lt;#code#&gt;
-}
-task.resume()
-</string>
+	<string>@IBAction func on&lt;#btnName#&gt;BtnClick(_ btn: UIButton) {
+        &lt;# code #&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DCE70F58-6A51-4C26-AF88-2F646406A746</string>
+	<string>5041E25B-E718-4757-8162-13C09C323036</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift Simple HTTP Request</string>
+	<string>sxiba按钮方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift URLSession DataTask</string>
+	<string>sxiba按钮方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

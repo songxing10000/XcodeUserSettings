@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uitableviewdatasource</string>
+	<string>sxtabData</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        //MARK: UITableViewDataSource
+	<string>        // MARK: - UITableViewDataSource
 
         func numberOfSections(in tableView: UITableView) -&gt; Int {
             return &lt;#numberOfSections#&gt;
@@ -33,9 +33,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UITableViewDataSource snippet for Swift</string>
+	<string>table 数据源 方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift UITableViewDataSource</string>
+	<string>sxtabData - table 数据源 方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

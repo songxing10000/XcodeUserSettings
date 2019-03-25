@@ -3,22 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxweakSelf</string>
+	<string>sxDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) &lt;#name#&gt; = self;</string>
+	<string>override func viewDisappear(_ animated: Bool) {
+        super.viewDisappear(animated)
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>57E22E70-98C3-4E93-B9CB-9A87AB7B5407</string>
+	<string>2DC5F3E2-038D-49F8-896E-2211A9E3E995</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf in block</string>
+	<string>viewDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

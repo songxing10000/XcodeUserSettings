@@ -27,9 +27,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E8EA2E2A-FB77-47D7-ABAE-FD5C9BD4D2D7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>awakeFromNib、initWithFrame统一设置</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>xibView</string>
+	<string>xibView-awakeFromNib、initWithFrame统一设置</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

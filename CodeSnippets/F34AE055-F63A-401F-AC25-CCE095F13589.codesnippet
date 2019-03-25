@@ -3,22 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setFrameY</string>
+	<string>sxWillDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#view#&gt;.frame = CGRectSetY(&lt;#view#&gt;.frame, &lt;#y#&gt;);</string>
+	<string>override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        &lt;#code#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B5531524-A9B1-4FC3-AB9C-81C93EA6F201</string>
+	<string>F34AE055-F63A-401F-AC25-CCE095F13589</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>set UIView frame Y with QMUI CGRectSetY</string>
+	<string>viewWillDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pwr</string>
+	<string>swift-singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>static let shared : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3BDAAACA-931A-43D6-B7B4-A446285E098B</string>
+	<string>D0964789-8FAA-4A94-8E5B-D5178137F102</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Singleton pattern for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Weak And Readonly</string>
+	<string>Swift Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

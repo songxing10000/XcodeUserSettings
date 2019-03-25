@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pwr</string>
+	<string>swift-prop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>    var &lt;# name #&gt; : &lt;# type #&gt; {
+        get { return &lt;# varName #&gt; }
+        set { &lt;# varName #&gt; = value }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3BDAAACA-931A-43D6-B7B4-A446285E098B</string>
+	<string>3759C0E1-EAE1-4321-88CD-54F1EEF38E90</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Weak And Readonly</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Auto-Create property stub</string>
+	<string>AutoProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

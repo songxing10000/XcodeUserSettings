@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pwr</string>
+	<string>swift-urlsession-delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, weak, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
+let task = session.dataTask(with: &lt;#request#&gt;){ (data, response, error) in
+    &lt;#code#&gt;
+}
+task.resume()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3BDAAACA-931A-43D6-B7B4-A446285E098B</string>
+	<string>B03099E0-1094-412E-BE86-5AC1BDB07315</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift HTTP Request With Delegate set</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Weak And Readonly</string>
+	<string>Swift URLSession With Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

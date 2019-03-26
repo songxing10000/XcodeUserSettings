@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxdelay</string>
+	<string>swift-forin</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSUInteger delaySecond = 2;
-dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delaySecond * NSEC_PER_SEC));
-    dispatch_after(delayTime, dispatch_get_main_queue(), ^{
-        self.videoUploadView.progressView.percent = 100;
-    });</string>
+	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; as [&lt;#Type#&gt;] {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D398BAB2-D1EA-4D20-BC4C-754C314E6254</string>
+	<string>48C9EB7D-A166-4781-8DC8-6961B57BDC02</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>for-in loop that casts objects inline</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>延时</string>
+	<string>Swift for-in loop with casting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

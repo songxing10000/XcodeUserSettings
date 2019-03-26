@@ -3,25 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>addChildViewController</string>
+	<string>swift-documentdirectory</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self addChildViewController:&lt;#childViewController#&gt;];
-        [self.view addSubview:&lt;#childViewController#&gt;.view];
-        [&lt;#childViewController#&gt; didMoveToParentViewController:self];</string>
+	<string>if let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first {
+		let documentsDirectoryURL = NSURL.fileURL(withPath: path)
+	}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51608015-7179-49F1-8CF7-4810CEF069E0</string>
+	<string>E3AE2218-F56E-45BE-909F-1EC5DE83F3AE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>UIViewController addChildViewController:</string>
+	<string>Document directory path snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>addChildViewController</string>
+	<string>Swift document directory</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

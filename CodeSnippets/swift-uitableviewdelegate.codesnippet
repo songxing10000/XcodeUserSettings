@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxdelay</string>
+	<string>sxtabdele</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSUInteger delaySecond = 2;
-dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delaySecond * NSEC_PER_SEC));
-    dispatch_after(delayTime, dispatch_get_main_queue(), ^{
-        self.videoUploadView.progressView.percent = 100;
-    });</string>
+	<string>    // MARK: - UITableViewDelegate
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D398BAB2-D1EA-4D20-BC4C-754C314E6254</string>
+	<string>183B54E8-CAE0-4C8F-B8B3-43E3965FDF1A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>table 代理方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>延时</string>
+	<string>sxtabdele - table 代理方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

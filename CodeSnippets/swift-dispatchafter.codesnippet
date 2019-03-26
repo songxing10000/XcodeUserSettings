@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setFrameXY</string>
+	<string>swift-dispatchafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#view#&gt;.frame = CGRectSetXY(&lt;#view#&gt;.frame, &lt;#x#&gt;, &lt;#y#&gt;);</string>
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(&lt;#seconds#&gt;)) {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29616EC2-81E1-4AF5-8AD9-96DEED51B264</string>
+	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>GCD dispatch_after snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>set UIView frame XY with QMUI CGRectSetXY</string>
+	<string>Swift dispatch_after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

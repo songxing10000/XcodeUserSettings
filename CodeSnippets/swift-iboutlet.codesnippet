@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>closeItem</string>
+	<string>sxibo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIBarButtonItem qmui_closeItemWithTarget:self action:@selector(&lt;#selector name#&gt;)];</string>
+	<string>@IBOutlet weak var m_&lt;# OutletName #&gt;: &lt;# OutletType #&gt;!</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F68179BA-29CA-48D0-8F20-54CE21E05920</string>
+	<string>F0FAF3C5-71F4-4009-B09B-15FB3AE62C60</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Stub out IBOutlet</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Close UIBarButtonItem</string>
+	<string>IBOutlet属性连线</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

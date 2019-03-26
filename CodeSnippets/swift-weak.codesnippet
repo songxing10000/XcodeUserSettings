@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>boldTitleItem</string>
+	<string>swift-weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIBarButtonItem qmui_itemWithBoldTitle:&lt;#(nullable NSString *)#&gt; target:self action:@selector(&lt;#selector name#&gt;)];</string>
+	<string>[weak self] in
+            guard let strongSelf = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5A3AB4AB-26DC-4402-BE47-D87BF8D620E0</string>
+	<string>B5FFB5B9-1B62-49B5-B1E1-0749BBE07D42</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>weakify self in closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Bold Title UIBarButtonItem</string>
+	<string>Swift weakify self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

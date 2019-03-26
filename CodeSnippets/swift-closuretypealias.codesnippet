@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__weakSelf</string>
+	<string>sxclo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self)weakSelf = self;</string>
+	<string>typealias &lt;#ClosureName#&gt; = (_ &lt;#arguments#&gt;: &lt;#type#&gt;) -&gt; &lt;#return value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AD3496A-7B93-4B60-9C5D-E54FC734E544</string>
+	<string>42AA2BDB-AA64-4260-9726-A72C20E79FBB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Closure typealias with arguments and return value snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>sxclo定义闭包类型-必有</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

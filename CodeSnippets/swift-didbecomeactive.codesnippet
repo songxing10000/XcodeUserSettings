@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>backItem</string>
+	<string>swift-didbecomeactive</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIBarButtonItem qmui_backItemWithTarget:self action:@selector(&lt;#selector name#&gt;)];</string>
+	<string>NotificationCenter.default.addObserver(self, selector: #selector(&lt;#selector#&gt;), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>47B97B84-8A9F-4862-B658-AC7849E83C75</string>
+	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIApplicationDidBecomeActiveNotification observer snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Back UIBarButtonItem</string>
+	<string>Swift add DidBecomeActive notification observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxWillDisappear</string>
+	<string>addtarswi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        &lt;#code#&gt;
-    }</string>
+	<string>addTarget(self, action: #selector(onSearchBtnClick(btn:)), for: .touchUpInside)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F34AE055-F63A-401F-AC25-CCE095F13589</string>
+	<string>90988BBE-CC9B-4D0F-9FFA-94BFC6C63D82</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift</string>
+	<string>addtargetSwift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewWillDisappear</string>
+	<string>addtargetSwift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxWillDisappear</string>
+	<string>sxfixme</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        &lt;#code#&gt;
-    }</string>
+	<string>// FIXME: &lt;#说明#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F34AE055-F63A-401F-AC25-CCE095F13589</string>
+	<string>155D63AC-D235-4B96-9ED4-9CE582BFED16</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift</string>
+	<string>sxfixme   // FIXME:</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewWillDisappear</string>
+	<string>sxfixme   // FIXME:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

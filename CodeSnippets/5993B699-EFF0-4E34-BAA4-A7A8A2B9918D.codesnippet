@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxiba</string>
+	<string>sxdelay</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@IBAction func on&lt;#btnName#&gt;BtnClick(btn: UIButton) {
-        &lt;# code #&gt;
-    }</string>
+	<string>DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: {
+            self.m_tableView.mj_header.endRefreshing()
+            self.m_tableView.mj_footer.endRefreshing()
+
+        })</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5041E25B-E718-4757-8162-13C09C323036</string>
+	<string>5993B699-EFF0-4E34-BAA4-A7A8A2B9918D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>sxiba按钮方法</string>
+	<string>sxdelay</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>sxiba按钮方法</string>
+	<string>sxdelay</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

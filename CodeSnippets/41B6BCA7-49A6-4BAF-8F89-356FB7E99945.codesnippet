@@ -12,13 +12,17 @@
 	<string>/// &lt;#注释#&gt;
 typedef NS_ENUM(NSInteger, AppStartType)
 {
-    AppStartTypeColdStart = 1,//!&lt; &lt;#注释#&gt;
-    AppStartTypeHotStart,//!&lt; &lt;#注释#&gt;
+    /// &lt;#注释#&gt;
+    AppStartTypeColdStart = 1,
+    /// &lt;#注释#&gt;
+    AppStartTypeHotStart,
 };</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>41B6BCA7-49A6-4BAF-8F89-356FB7E99945</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>枚举</string>
 	<key>IDECodeSnippetUserSnippet</key>

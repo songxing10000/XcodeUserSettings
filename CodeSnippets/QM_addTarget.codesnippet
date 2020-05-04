@@ -9,11 +9,13 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#control#&gt; addTarget:self action:@selector(handle&lt;#controlName#&gt;Event:) forControlEvents:UIControlEventTouchUpInside];</string>
+	<string> [&lt;#control#&gt; addTarget:self action:@selector(click&lt;#btnName#&gt;Btn:) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>799325FD-C68C-4BD4-AFE5-F398D97107F6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>UIControl Add Target</string>
 	<key>IDECodeSnippetUserSnippet</key>

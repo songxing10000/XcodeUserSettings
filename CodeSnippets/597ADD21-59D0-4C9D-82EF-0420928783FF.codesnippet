@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>propertySwizzleCopy</string>
+	<string>btnaction</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static char kAssociatedObjectKey_&lt;#property name#&gt;;
-- (void)set&lt;#property name#&gt; {
-    objc_setAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;, &lt;#argument name#&gt;, OBJC_ASSOCIATION_COPY_NONATOMIC);
-}
-
-- &lt;#property getter#&gt; {
-    return (&lt;#Property type#&gt; *)objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;);
+	<string>- (void)&lt;#clickLaNewBtnBtn#&gt;:(UIButton *)btn {
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>499A01BF-2245-446A-A7D5-D940FE6833CD</string>
+	<string>597ADD21-59D0-4C9D-82EF-0420928783FF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>用swizzle方式创建copy类型的property的getter/setter</string>
+	<string>手码按钮事件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

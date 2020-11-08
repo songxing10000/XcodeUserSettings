@@ -3,28 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxem</string>
+	<string>imp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-typedef NS_ENUM(NSInteger, AppStartType)
-{
-    /// &lt;#注释#&gt;
-    AppStartTypeColdStart = 1,
-    /// &lt;#注释#&gt;
-    AppStartTypeHotStart,
-};</string>
+	<string>#import "&lt;#header#&gt;.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41B6BCA7-49A6-4BAF-8F89-356FB7E99945</string>
+	<string>3B304CFF-D2A3-48BA-B6CF-2D61591794EB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>枚举</string>
+	<string>导入头文件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

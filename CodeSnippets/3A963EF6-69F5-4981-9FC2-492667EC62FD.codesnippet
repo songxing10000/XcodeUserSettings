@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxem</string>
+	<string>smlab</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-typedef NS_ENUM(NSInteger, AppStartType)
-{
-    /// &lt;#注释#&gt;
-    AppStartTypeColdStart = 1,
-    /// &lt;#注释#&gt;
-    AppStartTypeHotStart,
-};</string>
+	<string>UILabel *valuelab2 = ({
+    UILabel *lab =
+    [UILabel text:ASLocalizedString(@"0") font:[UIFont pFBlodSize:30] textColor:[UIColor blackColor]];
+    [topV addSubview: lab];
+    lab.top = tiplab2.bottom + 10;
+    lab.left = 15;
+    lab;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41B6BCA7-49A6-4BAF-8F89-356FB7E99945</string>
+	<string>3A963EF6-69F5-4981-9FC2-492667EC62FD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>枚举</string>
+	<string>手码label</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

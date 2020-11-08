@@ -3,28 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxem</string>
+	<string>racbtn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-typedef NS_ENUM(NSInteger, AppStartType)
-{
-    /// &lt;#注释#&gt;
-    AppStartTypeColdStart = 1,
-    /// &lt;#注释#&gt;
-    AppStartTypeHotStart,
-};</string>
+	<string>[[&lt;#btn#&gt; rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(UIButton *btn) {
+    &lt;#log#&gt;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41B6BCA7-49A6-4BAF-8F89-356FB7E99945</string>
+	<string>ADCC1B95-AD45-4BAA-9833-C16F226BD924</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>枚举</string>
+	<string>rac_signalForControlEvents</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

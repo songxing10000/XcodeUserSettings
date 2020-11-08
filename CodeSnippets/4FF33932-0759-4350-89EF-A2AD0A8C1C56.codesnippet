@@ -3,28 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxem</string>
+	<string>smimg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-typedef NS_ENUM(NSInteger, AppStartType)
-{
-    /// &lt;#注释#&gt;
-    AppStartTypeColdStart = 1,
-    /// &lt;#注释#&gt;
-    AppStartTypeHotStart,
-};</string>
+	<string> UIImageView *img1 = ({
+        UIImageView *img = [[UIImageView alloc] initWithImage: [UIImage imageNamed: @"defeat_img"]];
+        img;
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41B6BCA7-49A6-4BAF-8F89-356FB7E99945</string>
+	<string>4FF33932-0759-4350-89EF-A2AD0A8C1C56</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>枚举</string>
+	<string>手码img</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

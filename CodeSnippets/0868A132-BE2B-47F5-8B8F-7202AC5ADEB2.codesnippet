@@ -3,28 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxem</string>
+	<string>strf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#注释#&gt; */
-typedef NS_ENUM(NSInteger, AppStartType)
-{
-    /// &lt;#注释#&gt;
-    AppStartTypeColdStart = 1,
-    /// &lt;#注释#&gt;
-    AppStartTypeHotStart,
-};</string>
+	<string>[NSString stringWithFormat:@"%@%@", &lt;#str1#&gt;, &lt;#str2#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41B6BCA7-49A6-4BAF-8F89-356FB7E99945</string>
+	<string>0868A132-BE2B-47F5-8B8F-7202AC5ADEB2</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>[NSString stringWithFormat:@"%@%@", &lt;#str1#&gt;, &lt;#str2#&gt;];</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>枚举</string>
+	<string>连接字符串</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

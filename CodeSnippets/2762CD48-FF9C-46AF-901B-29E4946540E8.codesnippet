@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sxconst</string>
+	<string>sxbtn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const CGFloat kCommonHeight = 44;
-</string>
+	<string>- (void)click&lt;#SelectByCourseLevelBtn#&gt;:(UIButton *)btn {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9CE58D6A-7CAE-4DE2-BF3F-18EC2FA64374</string>
+	<string>2762CD48-FF9C-46AF-901B-29E4946540E8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>sxconst</string>
+	<string>手码按钮事件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

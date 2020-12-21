@@ -35,6 +35,16 @@
             symbolName = "[UIImage imageNamed:]"
             moduleName = "">
             <Locations>
+               <Location
+                  uuid = "EEE42866-47B7-47AC-84B0-4645D2E47412 - 9cc70c83f07c02e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[UIImage imageNamed:]"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
